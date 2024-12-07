@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Discussion Portal</title>
+</head>
+
+<body>
+    <h1 id="heading">Discussion Portal</h1>
+    <div id="main">
+        <div id="first">
+            <button>New Question Form</button>
+            <input type="text" placeholder="Search Questions" id="searchBar">
+            <button id="favourite">Favourite</button>
+            <div id="questions"></div>
+        </div>
+        <hr id="line">
+
+        <div class="right">
+            <div id="second">
+                <h2>Welcome to discussion portal</h2>
+                <p>Enter a subject and question to get started</p>
+                <form id="right">
+                    <input type="text" placeholder="Subject" id="subject">
+                    <textarea id="descryption" placeholder="Question" rows="5"></textarea>
+                </form>
+                <button>Submit</button>
+            </div>
+    
+            <div id="third">
+                <h2>Question</h2>
+                <div id="question_detail">
+    
+                </div>
+                <button id="remove">Remove</button>
+                <h2>Add Response</h2>
+                <form id="response">
+                    <input type="text" placeholder="Name" id="name">
+                    <textarea placeholder="Response" rows="5" id="answer"></textarea>
+                </form>
+                <button id="submit_reponse">Submit</button>
+                <div id="comments">
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
